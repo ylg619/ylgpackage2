@@ -5,10 +5,10 @@ install_requirements:
 	@pip install -r requirements.txt
 
 check_code:
-	@flake8 scripts/* ylgpackage/*.py
+	@flake8 scripts/* ylgpackage2/*.py
 
 black:
-	@black scripts/* ylgpackage/*.py
+	@black scripts/* ylgpackage2/*.py
 
 test:
 	@coverage run -m pytest tests/*.py
