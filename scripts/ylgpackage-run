@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from ylgpackage2.lib import try_me
+
+try_me()
